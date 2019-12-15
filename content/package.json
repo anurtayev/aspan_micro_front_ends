@@ -9,6 +9,6 @@
     "start": "serve --port 5000 --cors content"
   },
   "devDependencies": {
-    "serve": "^6.5.2"
+    "serve": "^7.1.3"
   }
 }
