@@ -1,0 +1,14 @@
+{
+  "name": "aspan-static",
+  "version": "1.0.0",
+  "description": "",
+  "repository": "",
+  "author": "Adil Nurtayev",
+  "license": "",
+  "scripts": {
+    "start": "serve --port 5000 --cors content"
+  },
+  "devDependencies": {
+    "serve": "^6.5.2"
+  }
+}
