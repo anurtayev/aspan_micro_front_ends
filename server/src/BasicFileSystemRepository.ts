@@ -55,8 +55,6 @@ export default class implements IRepository {
   }
 
   public getFolderEntries = async (id: TEntryId): Promise<TEntry[]> => {
-    console.log('==> getFolderEntries id', id)
-
     const retval = (
       await Promise.all(
         (await readdir(this.fsPath(id)))
@@ -73,8 +71,6 @@ export default class implements IRepository {
         entry.type === 'folder' ||
         (entry.type === 'file' && this.options.exts.includes(entry.contentType))
     )
-
-    console.log('==> retval', retval)
 
     return retval
   }

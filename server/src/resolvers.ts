@@ -16,7 +16,6 @@ export const resolvers = {
 
     getFolderEntries(_root, { id }, { repository }: IContext) {
       const ents = repository.getFolderEntries(id)
-      console.log('==> ents ', ents)
 
       // return repository.getFolderEntries(id)
       return ents
@@ -71,8 +70,6 @@ export const resolvers = {
     },
 
     thumbImage(entry: TEntry, _args, { repository }: IContext) {
-      console.log('==> thumbImage entry', entry)
-
       return repository.getBase64ImageString(entry.id)
     }
   }
