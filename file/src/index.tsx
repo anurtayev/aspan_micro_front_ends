@@ -4,11 +4,6 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
-interface IEntry {
-  id: string;
-  name: string;
-}
-
 declare global {
   interface Window {
     renderFile(

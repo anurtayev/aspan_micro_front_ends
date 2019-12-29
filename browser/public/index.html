@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Aspan File component</title>
+    <title>Aspan Browser component</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -13,12 +13,7 @@
     <script src="%REACT_APP_CONTENT_HOST%/react-dom.prod-16.8.0.min.js"></script>
     <script type="text/javascript">
       window.onload = () => {
-        window.renderFile(
-          "root",
-          history,
-          "/file-in-root-folder.jpg",
-          "Pictura2"
-        );
+        window.renderBrowser("root", history);
       };
     </script>
   </body>
