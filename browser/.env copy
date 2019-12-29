@@ -1,0 +1,5 @@
+PORT=3002
+REACT_APP_NAME=browser
+REACT_APP_CONTENT_HOST=http://localhost:5000
+REACT_APP_FILE_HOST=http://localhost:3001
+REACT_APP_GQL_HOST=http://localhost:4000
