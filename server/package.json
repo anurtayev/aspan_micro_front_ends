@@ -15,7 +15,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^2.4.8",
+    "apollo-server": "^2.25.4",
     "dotenv": "^6.2.0",
     "fs-extra": "^7.0.1",
     "glob": "^7.1.3",
